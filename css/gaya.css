@@ -1,0 +1,412 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #120616;
+    color: #ffff;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:#442455;
+    color: #fff;
+    z-index: 1;
+    border-bottom: 5px solid #B28FC4;
+}
+
+/* Navbar logo styling */
+.navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    margin-left: 15px;
+    font-family: Lilita One, sans-serif;
+    text-decoration: none;
+}
+
+/* Navbar menu styling */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 10px;
+}
+.navbar-menu img{
+    width: 20px;
+    height: 30x;
+    margin: 10px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.4s;
+}
+
+/* Hover effect on menu links */
+.navbar-menu a:hover {
+    color: #C3A9D1;
+}
+
+/* myweb*/
+.Myweb{
+    font-size: 80px;
+    text-align: center;
+    font-family: Lilita One, sans-serif;
+    margin-top: 250px;
+    margin-bottom: 260px;
+}
+
+
+.about-me {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header-2 h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 40px;
+    margin-top: 5px;
+    color: #fff;
+    
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #1B2033;
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+    transition: 1s;
+    scale: 1.05;
+}
+
+/* Content Layout */
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-photo {
+    text-align: center;
+}
+
+.about-photo img {
+    width: 200px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+
+.about-text {
+    flex: 2;
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* Download Button */
+.download-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #442455;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.download-button:hover {
+    background-color: #120616;
+}
+
+
+
+/*container skill*/
+.skill{
+    width: 100%;
+    margin: 10% auto;
+    padding-bottom: 10%;
+    background-color:#1B2033;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.skil{
+    padding: 2px;
+}
+
+/*text-skill*/
+.skill-text{
+    text-align: center;
+    font-family: Lilita One, sans-serif;
+    font-size: 40px;
+    width: 100%;
+}
+
+/*logo container*/
+.Skill-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 40px;
+    padding: 30px;
+    background-color: #120616;
+    border-radius: 10px;
+    transition: 0.8s;
+}
+
+.Skill-container:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 50px 5px #C3A9D1; 
+}
+
+.logo-skill{
+    width: 150px;
+}
+
+.text-skill{
+    text-align: center;
+}
+.padding-project{
+    padding: 50px 20px;
+}
+.project{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+/*h2 project*/
+.project h2{
+    text-align: center;
+    font-family: Lilita One, sans-serif;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+/*container project*/
+.container-right,
+.container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 700px;
+    height: 300px;
+    margin: 30px;
+    background: #1B2033;
+    padding: 20px;
+    border-radius: 10px;
+}
+/*End*/
+
+/*project image*/
+.container-right img,
+.container-left img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin: 35px;
+}
+
+.container-right img{
+    transition: transform 1s;
+}
+.container-right img:hover{
+    transform: scale(1.05);
+}
+
+.container-left img{
+    transition: transform 1s;
+}
+.container-left img:hover{
+    transform: scale(1.05);
+}
+/*End*/
+
+/*p project*/
+.container-right p,
+.container-left p {
+    flex: 1;
+}
+
+.container-right p{
+    transition: transform 1s;
+}
+.container-right p:hover{
+    transform: scale(1.05);
+}
+
+.container-left p{
+    transition: transform 1s;
+}
+.container-left p:hover{
+    transform: scale(1.05);
+}
+/*End*/
+
+/*container kanan*/
+.container-right {
+    flex-direction: row-reverse; 
+    text-align: right;
+    margin-left: auto; 
+    margin-right: 30px; 
+    transition: 0.8s;
+}
+
+.container-right:hover {
+    transform: skew(-5deg);
+    box-shadow: 0 0 50px 5px #C3A9D1; 
+    border-right: 5px solid #C3A9D1;
+    border-bottom: 5px solid #C3A9D1;
+
+}
+/*End*/
+
+/*container kiri*/
+.container-left {
+    flex-direction: row;
+    text-align: left;
+    margin-right: auto;
+    margin-left: 30px;
+    transition: 0.8s;
+}
+.container-left:hover{
+    transform: skew(5deg);
+    box-shadow: 0 0 50px 5px #C3A9D1; 
+    border-left: 5px solid #C3A9D1;
+    border-bottom: 5px solid #C3A9D1;
+}
+/*End*/
+
+/* See Project container */
+.see-project {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #442455; 
+    font-size: 1rem;
+    color: #ffff;
+    text-decoration: none; 
+    border-radius: 8px;
+    transition: 0.6s;
+}
+
+.see-project:hover {
+    background-color: #120616;
+}
+
+/* Container contact */
+.container-contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 700px; 
+    margin: 10px auto 0; 
+    background-color: #1B2033;
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 5px solid #C3A9D1;
+    margin-bottom: 70px;
+}
+
+.container-contact input,
+.container-contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #C3A9D1; 
+    background-color: #120616;
+    color: #ffff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.container-contact textarea {
+    height: 100px; 
+}
+
+.container-contact button {
+    padding: 10px 20px; 
+    background-color: #442455;
+    border: none; 
+    border-radius: 5px;
+    transition: 0.6s;
+    color: #ffff;
+    width: 105%;
+}
+.container-contact button:hover{
+    background-color: #120616
+}
+
+footer {
+    background-color: #1B2033; 
+    text-align: center; 
+    padding: 20px 0; 
+    margin-top: 20px; 
+    position: relative;
+    bottom: 0; 
+    width: 100%; 
+}
+
+footer p {
+    margin: 20px 0 0;
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+footer a {
+    margin: 0 10px; 
+}
+
+footer img {
+    width: 30px;
+    height: auto; 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+@media screen {
+    
+}
